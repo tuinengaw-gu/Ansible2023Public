@@ -1,0 +1,6 @@
+- name: Echo "hello world"
+  hosts: all 
+  tasks:
+    - name: Print Message
+      debug:
+        msg: "hello world <3"
